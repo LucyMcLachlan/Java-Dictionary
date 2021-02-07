@@ -13,3 +13,23 @@ Terms for Java/Processing
 4.ellipse(); Draws an ellipse
     Atributes: x, y, w, h
     ex: ellipse(200,300,75,90);
+    
+5. fill();  : fills a shape with a colour (comes before what you want to fill)
+    Atributes: r,g,b
+    ex: fill(30,195,200);
+
+6. line();  : draws a line inbetween a specified start point and a specified end point
+    Atributes: x1, y1, x2, y2
+    ex: line(350,100,350,175);
+    
+7. noFill();  : gets rid of the colour inside a shape(comes before what you want empty)
+
+8. noStroke();  : gets rid of the line around a shape(comes before what you want to apply it to)
+
+9. stroke();  : determines the colour of the line(comes before what you want to apply it to)
+    Atributes: r,g,b
+    ex: stroke(0,0,0);
+    
+10. stokeWeight();  : determines the width of the lines drawn in pixels(CBWYWTAIT)
+    Atrbutes: p
+    ex: strokeWeight(5);
