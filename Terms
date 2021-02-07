@@ -33,3 +33,7 @@ Terms for Java/Processing
 10. stokeWeight();  : determines the width of the lines drawn in pixels(CBWYWTAIT)
     Atrbutes: p
     ex: strokeWeight(5);
+    
+11. triangle();  : draws a triangle
+        Atributes: x1, y1, x2, y2, x3, y3
+        ex: triangle(500,70,580,90,480,80);
